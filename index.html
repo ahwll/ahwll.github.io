@@ -201,24 +201,24 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">##      speed           dist       </span><br><span class="line">##  Min.   : 4.0   Min.   :  2.00  </span><br><span class="line">##  1st Qu.:12.0   1st Qu.: 26.00  </span><br><span class="line">##  Median :15.0   Median : 36.00  </span><br><span class="line">##  Mean   :15.4   Mean   : 42.98  </span><br><span class="line">##  3rd Qu.:19.0   3rd Qu.: 56.00  </span><br><span class="line">##  Max.   :25.0   Max.   :120.00</span><br></pre></td></tr></table></figure>
 
 <h2 id="Including-Plots"><a href="#Including-Plots" class="headerlink" title="Including Plots"></a>Including Plots</h2><p>You can also embed plots, for example:</p>
-<p><img src="/.com//pressure-1.png"><!-- --></p>
+<p><img src="/2021/08/01/test1/pressure-1.png"><!-- --></p>
 <p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
 <h2 id="boxplot-箱线图"><a href="#boxplot-箱线图" class="headerlink" title="boxplot 箱线图"></a>boxplot 箱线图</h2><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">boxplot(count ~ spray, data = InsectSprays, col = <span class="string">&quot;red&quot;</span>, xlab=<span class="string">&quot;spray&quot;</span>, ylab=<span class="string">&quot;counts&quot;</span>)</span><br></pre></td></tr></table></figure>
 
-<p><img src="/.com//unnamed-chunk-1-1.png"><!-- --></p>
+<p><img src="/2021/08/01/test1/unnamed-chunk-1-1.png"><!-- --></p>
 <h2 id="散点图"><a href="#散点图" class="headerlink" title="散点图"></a>散点图</h2><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">x &lt;- runif(<span class="number">50</span>,<span class="number">0</span>,<span class="number">2</span>)</span><br><span class="line">y &lt;- runif(<span class="number">50</span>,<span class="number">0</span>,<span class="number">2</span>)</span><br><span class="line">plot(x, y, main=<span class="string">&quot;&quot;</span>, xlab=<span class="string">&quot;&quot;</span>, ylab=<span class="string">&quot;&quot;</span>,</span><br><span class="line">xlim=<span class="built_in">c</span>(<span class="number">0</span>, <span class="number">2</span>), ylim=<span class="built_in">c</span>(<span class="number">0</span>, <span class="number">2</span>), pch=<span class="number">17</span>, col=<span class="string">&quot;black&quot;</span>,</span><br><span class="line">bg=<span class="string">&quot;yellow&quot;</span>, bty=<span class="string">&quot;l&quot;</span>, tcl=<span class="number">0.4</span>, las=<span class="number">1</span>, cex=<span class="number">1.5</span>)</span><br></pre></td></tr></table></figure>
 
-<p><img src="/.com//unnamed-chunk-2-1.png"><!-- --></p>
+<p><img src="/2021/08/01/test1/unnamed-chunk-2-1.png"><!-- --></p>
 <h2 id="ggplot2-散点图"><a href="#ggplot2-散点图" class="headerlink" title="ggplot2 散点图"></a>ggplot2 散点图</h2><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">require(ggplot2)</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">## Loading required package: ggplot2</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">data(diamonds)</span><br><span class="line">set.seed(<span class="number">1234</span>)</span><br><span class="line">dsmall=diamonds[sample(nrow(diamonds),<span class="number">100</span>),]</span><br><span class="line">qplot(carat,price,data=dsmall)</span><br></pre></td></tr></table></figure>
 
-<p><img src="/.com//unnamed-chunk-3-1.png"><!-- --></p>
+<p><img src="/2021/08/01/test1/unnamed-chunk-3-1.png"><!-- --></p>
 <h2 id="图片中文字符"><a href="#图片中文字符" class="headerlink" title="图片中文字符"></a>图片中文字符</h2><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pdf.options(family=<span class="string">&quot;GB1&quot;</span>)</span><br><span class="line">plot(cars,main=<span class="string">&quot;Cars&quot;</span>)</span><br></pre></td></tr></table></figure>
 
-<p><img src="/.com//unnamed-chunk-4-1.png"><!-- --></p>
+<p><img src="/2021/08/01/test1/unnamed-chunk-4-1.png"><!-- --></p>
 
       
     </div>
