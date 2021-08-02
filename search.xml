@@ -22,7 +22,10 @@
     <title>test1</title>
     <url>/2021/08/01/test1/</url>
     <content><![CDATA[<h2 id="R-Markdown"><a href="#R-Markdown" class="headerlink" title="R Markdown"></a>R Markdown</h2><p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com/">http://rmarkdown.rstudio.com</a>.</p>
-<p>&lt;– more–&gt;</p>
+<span id="more"></span>
+
+
+
 <p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
 <figure class="highlight r"><table><tr><td class="code"><pre><span class="line">summary(cars)</span><br></pre></td></tr></table></figure>
 
