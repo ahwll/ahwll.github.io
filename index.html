@@ -155,6 +155,95 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://ahwll.github.io/2021/08/01/test1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="ahwll">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ahwll 的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/08/01/test1/" class="post-title-link" itemprop="url">test1</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2021-08-01 14:47:29" itemprop="dateCreated datePublished" datetime="2021-08-01T14:47:29+08:00">2021-08-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-08-02 21:38:44" itemprop="dateModified" datetime="2021-08-02T21:38:44+08:00">2021-08-02</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="R-Markdown"><a href="#R-Markdown" class="headerlink" title="R Markdown"></a>R Markdown</h2><p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a target="_blank" rel="noopener" href="http://rmarkdown.rstudio.com/">http://rmarkdown.rstudio.com</a>.</p>
+<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
+<figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">summary(cars)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">##      speed           dist       </span><br><span class="line">##  Min.   : 4.0   Min.   :  2.00  </span><br><span class="line">##  1st Qu.:12.0   1st Qu.: 26.00  </span><br><span class="line">##  Median :15.0   Median : 36.00  </span><br><span class="line">##  Mean   :15.4   Mean   : 42.98  </span><br><span class="line">##  3rd Qu.:19.0   3rd Qu.: 56.00  </span><br><span class="line">##  Max.   :25.0   Max.   :120.00</span><br></pre></td></tr></table></figure>
+
+<h2 id="Including-Plots"><a href="#Including-Plots" class="headerlink" title="Including Plots"></a>Including Plots</h2><p>You can also embed plots, for example:</p>
+<p><img src="/2021/08/01/test1/pressure-1.png"><!-- --></p>
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<h2 id="boxplot-箱线图"><a href="#boxplot-箱线图" class="headerlink" title="boxplot 箱线图"></a>boxplot 箱线图</h2><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">boxplot(count ~ spray, data = InsectSprays, col = <span class="string">&quot;red&quot;</span>, xlab=<span class="string">&quot;spray&quot;</span>, ylab=<span class="string">&quot;counts&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021/08/01/test1/unnamed-chunk-1-1.png"><!-- --></p>
+<h2 id="散点图"><a href="#散点图" class="headerlink" title="散点图"></a>散点图</h2><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">x &lt;- runif(<span class="number">50</span>,<span class="number">0</span>,<span class="number">2</span>)</span><br><span class="line">y &lt;- runif(<span class="number">50</span>,<span class="number">0</span>,<span class="number">2</span>)</span><br><span class="line">plot(x, y, main=<span class="string">&quot;&quot;</span>, xlab=<span class="string">&quot;&quot;</span>, ylab=<span class="string">&quot;&quot;</span>,</span><br><span class="line">xlim=<span class="built_in">c</span>(<span class="number">0</span>, <span class="number">2</span>), ylim=<span class="built_in">c</span>(<span class="number">0</span>, <span class="number">2</span>), pch=<span class="number">17</span>, col=<span class="string">&quot;black&quot;</span>,</span><br><span class="line">bg=<span class="string">&quot;yellow&quot;</span>, bty=<span class="string">&quot;l&quot;</span>, tcl=<span class="number">0.4</span>, las=<span class="number">1</span>, cex=<span class="number">1.5</span>)</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021/08/01/test1/unnamed-chunk-2-1.png"><!-- --></p>
+<h2 id="ggplot2-散点图"><a href="#ggplot2-散点图" class="headerlink" title="ggplot2 散点图"></a>ggplot2 散点图</h2><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">require(ggplot2)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">## Loading required package: ggplot2</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">data(diamonds)</span><br><span class="line">set.seed(<span class="number">1234</span>)</span><br><span class="line">dsmall=diamonds[sample(nrow(diamonds),<span class="number">100</span>),]</span><br><span class="line">qplot(carat,price,data=dsmall)</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021/08/01/test1/unnamed-chunk-3-1.png"><!-- --></p>
+<h2 id="图片中文字符"><a href="#图片中文字符" class="headerlink" title="图片中文字符"></a>图片中文字符</h2><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pdf.options(family=<span class="string">&quot;GB1&quot;</span>)</span><br><span class="line">plot(cars,main=<span class="string">&quot;Cars&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021/08/01/test1/unnamed-chunk-4-1.png"><!-- --></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="https://ahwll.github.io/2021/08/01/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -186,7 +275,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-08-02 21:30:11" itemprop="dateModified" datetime="2021-08-02T21:30:11+08:00">2021-08-02</time>
+                <time title="Modified: 2021-08-02 21:38:52" itemprop="dateModified" datetime="2021-08-02T21:38:52+08:00">2021-08-02</time>
               </span>
 
           
@@ -361,7 +450,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
