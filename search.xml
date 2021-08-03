@@ -7,6 +7,8 @@
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<span id="more"></span>
+
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
@@ -56,6 +58,10 @@
     <title>学习笔记</title>
     <url>/2021/08/01/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="R-语言"><a href="#R-语言" class="headerlink" title="R 语言"></a>R 语言</h1><p>R语言学习笔记</p>
+<span id="more"></span>
+
+
+
 <h1 id="R-包"><a href="#R-包" class="headerlink" title="R 包"></a>R 包</h1><p>安装及使用</p>
 <h1 id="R-的其他使用"><a href="#R-的其他使用" class="headerlink" title="R 的其他使用"></a>R 的其他使用</h1><p>写论文</p>
 ]]></content>
